@@ -1,0 +1,16 @@
+{
+ "predictors_beyond_noise": [
+  "weatherA",
+  "region",
+  "carStationWagon",
+  "roadLane",
+  "motorcycle"
+ ],
+ "total_reliance_by_period": {
+  "2006-10": 2.7716577006,
+  "2011-15": 2.7035852855999996,
+  "2016-20": 2.6566560053,
+  "2021-25": 2.6796523644000003
+ },
+ "measure": "share of total mean |SHAP|; |log ratio| test vs disjoint halves"
+}

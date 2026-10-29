@@ -1,0 +1,8 @@
+Crash severity factors dashboard - Vedant Dave, MSE907
+
+1. Install Python 3.10 or newer.
+2. Open a terminal in this folder and run:
+       pip install -r requirements.txt
+       streamlit run app.py
+3. The dashboard opens in your browser at http://localhost:8501
+   Press Ctrl + C in the terminal to stop it.

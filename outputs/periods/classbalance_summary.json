@@ -1,0 +1,219 @@
+{
+ "target_severe_rate": 0.07580529844833916,
+ "seeds": 3,
+ "rates_before": {
+  "2006-10": 0.06170604464253841,
+  "2011-15": 0.0650138808186455,
+  "2016-20": 0.06622326608364361,
+  "2021-25": 0.07580529844833916
+ },
+ "sizes": {
+  "2006-10": {
+   "rows": 159619,
+   "rows_before": 196091,
+   "severe_rate": 0.0758
+  },
+  "2011-15": {
+   "rows": 132840,
+   "rows_before": 154890,
+   "severe_rate": 0.0758
+  },
+  "2016-20": {
+   "rows": 161427,
+   "rows_before": 184784,
+   "severe_rate": 0.0758
+  },
+  "2021-25": {
+   "rows": 155253,
+   "rows_before": 155253,
+   "severe_rate": 0.0758
+  }
+ },
+ "noise_floor": 0.9247942157953281,
+ "noise_mean": 0.9585799035965887,
+ "within_period_agreement": {
+  "2006-10": {
+   "mean": 0.9934742306266222,
+   "min": 0.992880978865406,
+   "seeds": 3
+  },
+  "2011-15": {
+   "mean": 0.982202447163515,
+   "min": 0.9804226918798665,
+   "seeds": 3
+  },
+  "2016-20": {
+   "mean": 0.9900630329996293,
+   "min": 0.9897664071190211,
+   "seeds": 3
+  },
+  "2021-25": {
+   "mean": 1.0,
+   "min": 1.0,
+   "seeds": 1
+  }
+ },
+ "within_ok": true,
+ "between_pairs": {
+  "2006-10 vs 2011-15": {
+   "original": 0.9483870967741934,
+   "equalised": 0.9256952169076751,
+   "crosses_2015_16": false
+  },
+  "2006-10 vs 2016-20": {
+   "original": 0.9274749721913237,
+   "equalised": 0.9408231368186873,
+   "crosses_2015_16": true
+  },
+  "2006-10 vs 2021-25": {
+   "original": 0.8545050055617353,
+   "equalised": 0.8442714126807563,
+   "crosses_2015_16": true
+  },
+  "2011-15 vs 2016-20": {
+   "original": 0.9248053392658508,
+   "equalised": 0.9110122358175751,
+   "crosses_2015_16": true
+  },
+  "2011-15 vs 2021-25": {
+   "original": 0.8189098998887653,
+   "equalised": 0.8166852057842046,
+   "crosses_2015_16": true
+  },
+  "2016-20 vs 2021-25": {
+   "original": 0.9363737486095662,
+   "equalised": 0.9345939933259176,
+   "crosses_2015_16": false
+  }
+ },
+ "same_side_mean": {
+  "original": 0.9423804226918798,
+  "equalised": 0.9301446051167963
+ },
+ "across_mean": {
+  "original": 0.8814238042269188,
+  "equalised": 0.8781979977753058
+ },
+ "break_survives": true,
+ "changed_factors": {
+  "region": {
+   "rank_original": [
+    4,
+    15
+   ],
+   "rank_equalised": [
+    4,
+    15
+   ],
+   "share_original_pct": [
+    7.74,
+    2.4
+   ],
+   "share_equalised_pct": [
+    7.49,
+    2.4
+   ],
+   "same_direction": true
+  },
+  "weatherA": {
+   "rank_original": [
+    14,
+    4
+   ],
+   "rank_equalised": [
+    14,
+    4
+   ],
+   "share_original_pct": [
+    2.27,
+    7.2
+   ],
+   "share_equalised_pct": [
+    2.46,
+    7.2
+   ],
+   "same_direction": true
+  },
+  "carStationWagon": {
+   "rank_original": [
+    8,
+    12
+   ],
+   "rank_equalised": [
+    10,
+    12
+   ],
+   "share_original_pct": [
+    5.46,
+    3.04
+   ],
+   "share_equalised_pct": [
+    4.95,
+    3.04
+   ],
+   "same_direction": true
+  },
+  "roadLane": {
+   "rank_original": [
+    11,
+    5
+   ],
+   "rank_equalised": [
+    11,
+    5
+   ],
+   "share_original_pct": [
+    4.03,
+    6.57
+   ],
+   "share_equalised_pct": [
+    3.87,
+    6.57
+   ],
+   "same_direction": true
+  },
+  "motorcycle": {
+   "rank_original": [
+    2,
+    1
+   ],
+   "rank_equalised": [
+    2,
+    1
+   ],
+   "share_original_pct": [
+    8.84,
+    12.09
+   ],
+   "share_equalised_pct": [
+    9.38,
+    12.09
+   ],
+   "same_direction": true
+  }
+ },
+ "changed_same_direction": true,
+ "top3_equalised": {
+  "2006-10": [
+   "speedLimit",
+   "motorcycle",
+   "pedestrian"
+  ],
+  "2011-15": [
+   "speedLimit",
+   "motorcycle",
+   "pedestrian"
+  ],
+  "2016-20": [
+   "speedLimit",
+   "motorcycle",
+   "pedestrian"
+  ],
+  "2021-25": [
+   "motorcycle",
+   "speedLimit",
+   "pedestrian"
+  ]
+ },
+ "overall_rate_explains_finding": false
+}

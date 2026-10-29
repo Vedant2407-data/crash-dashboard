@@ -1,0 +1,31 @@
+predictor,best_rank,worst_rank,range,rank_first,rank_last,net_drift,mean_rank,pattern,noise_p95_shift,observed_shift,verdict
+weatherA,4,17,13,14,4,-10,11.0,,5.049999999999997,6.0,BEYOND NOISE
+region,4,15,11,4,15,11,8.5,steadily down,4.0,6.0,BEYOND NOISE
+flatHill,8,19,11,16,8,-8,14.75,,7.0,5.5,within noise
+NumberOfLanes,12,22,10,12,22,10,14.75,steadily down,6.0,4.0,within noise
+vanOrUtility,13,23,10,23,13,-10,17.0,steadily up,8.0,5.0,within noise
+advisorySpeed_recorded,23,30,7,27,30,3,26.75,,5.0,2.0,within noise
+struck_other,17,24,7,17,21,4,21.5,,7.049999999999997,4.0,within noise
+streetLight,14,21,7,21,18,-3,17.5,,8.0,3.0,within noise
+vehicle_other,13,20,7,15,20,5,16.5,,4.0,3.0,within noise
+suv,16,22,6,19,17,-2,18.5,,6.0,3.0,within noise
+roadLane,5,11,6,11,5,-6,8.0,steadily up,3.0,4.0,BEYOND NOISE
+light,4,9,5,6,6,0,6.25,,4.0,3.0,within noise
+crashDirectionDescription,16,21,5,18,16,-2,18.5,,5.049999999999997,2.0,within noise
+bus,25,30,5,25,26,1,27.25,,5.0,2.0,within noise
+carStationWagon,8,12,4,8,12,4,10.0,steadily down,4.0,5.0,BEYOND NOISE
+holiday_recorded,24,28,4,24,28,4,25.5,steadily down,6.0,2.0,within noise
+urban,7,11,4,10,11,1,9.5,,3.0999999999999943,3.0,within noise
+bicycle,6,9,3,7,9,2,7.25,,3.0,1.0,within noise
+roadCharacter,23,26,3,26,24,-2,24.75,,3.0,1.0,within noise
+temporarySpeedLimit_recorded,25,28,3,28,25,-3,26.5,steadily up,5.049999999999997,2.0,within noise
+struck_natural,5,7,2,5,7,2,5.75,steadily down,4.0,1.0,within noise
+struck_roadside,8,10,2,9,10,1,9.25,,4.0,1.0,within noise
+weatherB_recorded,27,29,2,29,27,-2,28.25,,5.0,2.0,within noise
+struck_structure,21,23,2,22,23,1,22.0,,4.0,1.0,within noise
+truck,13,15,2,13,14,1,14.25,,6.0,2.0,within noise
+motorcycle,1,2,1,2,1,-1,1.75,steadily up,1.0,1.0,within noise
+speedLimit,1,2,1,1,2,1,1.25,steadily down,0.0,0.0,within noise
+struck_not_recorded,19,20,1,20,19,-1,19.75,steadily up,6.0,2.0,within noise
+roadSurface,29,30,1,30,29,-1,29.5,,4.0,1.0,within noise
+pedestrian,3,3,0,3,3,0,3.0,,1.0,0.0,within noise

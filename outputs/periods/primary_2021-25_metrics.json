@@ -1,0 +1,18 @@
+{
+ "period": "2021-25",
+ "model": "XGBoost",
+ "severe_rate": 0.0758,
+ "n_train": 124202,
+ "n_test": 31051,
+ "severe_train": 9415,
+ "severe_test": 2354,
+ "macro_f1": 0.562,
+ "severe_precision": 0.181,
+ "severe_recall": 0.7192,
+ "severe_f1": 0.2892,
+ "roc_auc": 0.8038,
+ "pr_auc": 0.3006,
+ "shap_rows": 31051,
+ "shap_additivity_max_error": 1e-05,
+ "seconds": 15.0
+}

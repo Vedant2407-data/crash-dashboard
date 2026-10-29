@@ -1,0 +1,18 @@
+{
+ "period": "2011-15",
+ "model": "XGBoost",
+ "severe_rate": 0.065,
+ "n_train": 123912,
+ "n_test": 30978,
+ "severe_train": 8056,
+ "severe_test": 2014,
+ "macro_f1": 0.5414,
+ "severe_precision": 0.155,
+ "severe_recall": 0.7507,
+ "severe_f1": 0.257,
+ "roc_auc": 0.809,
+ "pr_auc": 0.2669,
+ "shap_rows": 30978,
+ "shap_additivity_max_error": 5e-06,
+ "seconds": 14.9
+}

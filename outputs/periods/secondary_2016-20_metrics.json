@@ -1,0 +1,18 @@
+{
+ "period": "2016-20",
+ "model": "Random Forest",
+ "severe_rate": 0.0662,
+ "n_train": 147827,
+ "n_test": 36957,
+ "severe_train": 9790,
+ "severe_test": 2447,
+ "macro_f1": 0.5402,
+ "severe_precision": 0.154,
+ "severe_recall": 0.7246,
+ "severe_f1": 0.254,
+ "roc_auc": 0.7977,
+ "pr_auc": 0.2505,
+ "shap_rows": 5000,
+ "shap_additivity_max_error": 0.0,
+ "seconds": 536.3
+}

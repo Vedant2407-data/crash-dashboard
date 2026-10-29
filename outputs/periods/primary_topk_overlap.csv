@@ -1,0 +1,5 @@
+k,first_vs_last,mean_all_pairs,in_every_period,always_top_k
+3,3,3.0,3,"speedLimit, motorcycle, pedestrian"
+5,3,3.5,3,"speedLimit, motorcycle, pedestrian"
+10,7,8.17,7,"speedLimit, motorcycle, pedestrian, struck_natural, light, bicycle, struck_roadside"
+15,13,13.33,12,"speedLimit, motorcycle, pedestrian, struck_natural, light, bicycle, roadLane, region, struck_roadside, urban, carStationWagon, truck"

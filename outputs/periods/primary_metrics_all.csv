@@ -1,0 +1,2 @@
+period,model,severe_rate,n_train,n_test,severe_train,severe_test,macro_f1,severe_precision,severe_recall,severe_f1,roc_auc,pr_auc,shap_rows,shap_additivity_max_error,seconds
+2006-10,XGBoost,0.0617,156872,39219,9680,2420,0.5415,0.1531,0.7851,0.2563,0.8208,0.2821,39219,5e-06,20.9
